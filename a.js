@@ -1,1 +1,1 @@
-<script>alert('1');</script>
+document.body.innerHTML += '<script>alert("XSS Successful!");</script>';
